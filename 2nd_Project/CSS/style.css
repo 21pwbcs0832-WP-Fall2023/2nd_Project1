@@ -1,0 +1,224 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ############## ulitility classes ############## */
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+    margin-left: 1.2rem;
+    padding-top: 1rem;
+}
+
+li a{
+   text-decoration: none;
+   font-size: 1.8rem;
+   color: #fff;
+}
+.logo-h2{
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.white{
+    color: #fff;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* ######## nab-bar style ############## */
+
+.nav-bar{
+    background-color: #807979;
+    height: 45px;
+    /* position: sticky; */
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    /* position: sticky; */
+}
+
+.nav-ul{
+    display: flex;
+    order: 2;
+}
+.logo{
+    order: 1;
+}
+
+/* ############ home page style ############# */
+
+.home-contant{
+    background-color: #7a7575;
+    height: 72vh;
+    padding-top: 20rem;
+}
+.home-container{
+    background-color: #a7a0a0;
+    display: flex;
+    column-gap: 10rem;
+}
+.text-box1{
+    width: 50%;
+    padding: 1rem;
+}
+
+.text-h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.text-p{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+    background-color: #524f4f;
+    width: 10%;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #312f2f;
+    color: #fff;
+}
+
+.image-box{
+    width: 50%;
+}
+
+img{
+    display: inline-block;
+    width: 100%;
+}
+
+/* ########## feature style ############ */
+
+.feature{
+    padding-top: 25rem;
+    background-color: rgba(216, 216, 107, 0.902);
+    height: 72vh;
+}
+.icon-size{
+    font-size: 3rem;
+    background-color: #a18989;
+    padding: 0.7rem;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+.f-h2{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #524f4f;
+}
+
+.feature-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    column-gap: 3rem;
+}
+.text-box{
+    background-color: #063022a9;
+}
+.t-p{
+    padding-bottom: 1rem;
+}
+.t-h2{
+    padding: 1rem 0;
+}
+.t-a{
+    margin-bottom: 1rem;
+}
+
+/* ############# testimonail style ############## */
+
+.Testimonail{
+    background-color:  rgba(132, 132, 88, 0.902);
+    height: 85vh; 
+}
+.T-h1{
+    text-align: center;
+    padding-top: 20rem;
+    font-size: 3rem;
+}
+
+.text-box2{
+     text-align: center;
+     width: 20%;
+     margin: auto;
+     padding-top: 3rem;
+     background-color: rgba(18, 48, 18, 0.957);
+     padding: 1rem;
+     margin-top: 1rem;
+}
+.Teat-p{
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+.Test-h2{
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* ############## footer style ############ */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 8rem;
+    height: 20vh;
+    background-color: rgb(127, 143, 36);
+
+}
+
+.f-p{
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+.l-v-h2{
+    font-size: 2rem;
+}
+.footer-item a{
+    display: block;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: #000;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
