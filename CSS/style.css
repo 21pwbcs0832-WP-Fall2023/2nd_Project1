@@ -166,6 +166,22 @@ img{
 
 /* ############# testimonail style ############## */
 
+.testimonial-container {
+    width: 300px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.testimonial-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+/* 
 .Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
     height: 85vh; 
@@ -194,7 +210,7 @@ img{
     padding-top: 1rem;
     font-size: 2.5rem;
     color: #fff;
-}
+} */
 
 /* ############## footer style ############ */
 .footer-container{
