@@ -167,7 +167,8 @@ img{
 /* ############# testimonail style ############## */
 .Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
-    height: 85vh; 
+    height: 50vh; 
+    padding-top: 30rem;
 }
 .testimonial-container {
     /* background-color:  rgba(132, 132, 88, 0.902);
