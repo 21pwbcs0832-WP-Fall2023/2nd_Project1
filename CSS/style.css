@@ -165,10 +165,13 @@ img{
 }
 
 /* ############# testimonail style ############## */
-
-.testimonial-container {
+.Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
     height: 85vh; 
+}
+.testimonial-container {
+    /* background-color:  rgba(132, 132, 88, 0.902);
+    height: 85vh;  */
     margin: auto;
     width: 300px; /* Adjust the width as needed */
     height: 200px; /* Adjust the height as needed */
