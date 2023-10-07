@@ -183,7 +183,7 @@ img{
 
 .testimonial-card {
     width: 280px;
-    height: 100px;
+    height: 130px;
     text-align: center;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
@@ -196,7 +196,7 @@ img{
     font-style: italic;
 }
 .size-card{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 /* 
 .Testimonail{
