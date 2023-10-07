@@ -48,7 +48,7 @@ li a{
 .nav-bar{
     background-color: #807979;
     height: 45px;
-    /* position: fixed; */
+    position: fixed;
 
 }
 .nav-container{
