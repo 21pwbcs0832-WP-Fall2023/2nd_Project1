@@ -167,7 +167,7 @@ img{
 /* ############# testimonail style ############## */
 .Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
-    height: 50vh; 
+    height: 40vh; 
     padding-top: 30rem;
 }
 .testimonial-container {
@@ -182,6 +182,7 @@ img{
 }
 
 .testimonial-card {
+    height: 200px;
     text-align: center;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
