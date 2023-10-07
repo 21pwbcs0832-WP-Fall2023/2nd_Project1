@@ -167,6 +167,8 @@ img{
 /* ############# testimonail style ############## */
 
 .testimonial-container {
+    background-color:  rgba(132, 132, 88, 0.902);
+    height: 85vh; 
     width: 300px; /* Adjust the width as needed */
     height: 200px; /* Adjust the height as needed */
     overflow-y: scroll;
@@ -175,11 +177,16 @@ img{
 }
 
 .testimonial-card {
+    text-align: center;
     background-color: #f0f0f0;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
+}
+.author {
+    text-align: right;
+    font-style: italic;
 }
 /* 
 .Testimonail{
