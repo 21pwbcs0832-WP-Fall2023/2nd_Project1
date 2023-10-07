@@ -48,13 +48,12 @@ li a{
 .nav-bar{
     background-color: #807979;
     height: 45px;
-    position: fixed;
 
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
-    /* position: sticky; */
+    position: fixed;
 }
 
 .nav-ul{
