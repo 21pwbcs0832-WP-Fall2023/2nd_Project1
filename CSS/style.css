@@ -168,11 +168,9 @@ img{
 .Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
     height: 40vh; 
-    padding-top: 30rem;
+    padding-top: 20rem;
 }
 .testimonial-container {
-    /* background-color:  rgba(132, 132, 88, 0.902);
-    height: 85vh;  */
     margin: auto;
     width: 300px; /* Adjust the width as needed */
     height: 200px; /* Adjust the height as needed */
@@ -183,10 +181,10 @@ img{
 
 .testimonial-card {
     /* width: 20px; */
-    height: 170px;
+    height: 180px;
     text-align: center;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    background-color: #93a25c;
+    border: 1px solid #4e4646;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
