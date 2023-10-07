@@ -1,3 +1,4 @@
+/* sajjad */
 *,
 *::after,
 *::before{
@@ -47,7 +48,7 @@ li a{
 .nav-bar{
     background-color: #807979;
     height: 45px;
-    /* position: sticky; */
+    /* position: fixed; */
 
 }
 .nav-container{
