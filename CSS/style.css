@@ -175,7 +175,7 @@ img{
     height: 85vh;  */
     margin: auto;
     width: 300px; /* Adjust the width as needed */
-    height: 500px; /* Adjust the height as needed */
+    height: 200px; /* Adjust the height as needed */
     overflow-y: scroll;
     border: 3px solid #ccc;
     padding: 1rem;
