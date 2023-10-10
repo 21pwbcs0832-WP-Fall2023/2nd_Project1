@@ -15,7 +15,7 @@ body{
 /* ############## ulitility classes ############## */
 
 .container{
-    max-width: 1200px;
+    max-width: 800px;
     width: 90%;
     margin: auto;
 }
@@ -28,12 +28,16 @@ li{
 
 li a{
    text-decoration: none;
-   font-size: 1.8rem;
+   font-size: 1.2rem;
    color: #fff;
 }
+a:hover{
+    color: #312f2f;
+}
 .logo-h2{
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     padding-top: 1rem;
+    padding-left: 3rem;
 }
 
 .white{
@@ -48,12 +52,11 @@ li a{
 .nav-bar{
     background-color: #807979;
     height: 45px;
-
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
-    /* position: fixed; */
+    position: fixed;
 }
 
 .nav-ul{
@@ -64,42 +67,42 @@ li a{
     order: 1;
 }
 
-/* ############ home page style ############# */
+/* ############ index page style ############# */
 
 .home-contant{
     background-color: #7a7575;
-    height: 72vh;
-    padding-top: 20rem;
+    height: 75vh;
+    padding-top: 10rem;
 }
 .home-container{
     background-color: #a7a0a0;
     display: flex;
-    column-gap: 10rem;
+    column-gap: 5rem;
 }
 .text-box1{
-    width: 50%;
+    width: 40%;
     padding: 1rem;
 }
 
 .text-h2{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .text-p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .btn{
     display:block;
     text-align: center;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: black;
     background-color: #524f4f;
-    width: 10%;
+    width: 12%;
     margin: auto;
     padding: 1rem 1.5rem;
     outline: none;
@@ -113,10 +116,12 @@ li a{
 }
 
 .image-box{
-    width: 50%;
+    width: 55%;
 }
 
 img{
+    width: 250px;
+    height: 260px;
     display: inline-block;
     width: 100%;
 }
@@ -124,9 +129,9 @@ img{
 /* ########## feature style ############ */
 
 .feature{
-    padding-top: 25rem;
+    padding-top: 12rem;
     background-color: rgba(216, 216, 107, 0.902);
-    height: 72vh;
+    height: 79vh;
 }
 .icon-size{
     font-size: 3rem;
@@ -147,7 +152,7 @@ img{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     column-gap: 3rem;
 }
 .text-box{
@@ -166,12 +171,12 @@ img{
 /* ############# testimonail style ############## */
 .Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
-    height: 40vh; 
-    padding-top: 20rem;
+    height: 70vh; 
+    padding-top: 6rem;
 }
 .testimo-h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
 }
 .testimonial-container {
@@ -200,42 +205,13 @@ img{
 .size-card{
     font-size: 1.3rem;
 }
-/* 
-.Testimonail{
-    background-color:  rgba(132, 132, 88, 0.902);
-    height: 85vh; 
-}
-.T-h1{
-    text-align: center;
-    padding-top: 20rem;
-    font-size: 3rem;
-}
-
-.text-box2{
-     text-align: center;
-     width: 20%;
-     margin: auto;
-     padding-top: 3rem;
-     background-color: rgba(18, 48, 18, 0.957);
-     padding: 1rem;
-     margin-top: 1rem;
-}
-.Teat-p{
-    padding: 1rem;
-    font-size: 1.6rem;
-    color: #fff;
-}
-.Test-h2{
-    padding-top: 1rem;
-    font-size: 2.5rem;
-    color: #fff;
-} */
 
 /* ############## footer style ############ */
 .footer-container{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    margin-top: 5rem;
     padding-top: 8rem;
     height: 20vh;
     background-color: rgb(127, 143, 36);
