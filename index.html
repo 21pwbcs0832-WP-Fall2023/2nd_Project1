@@ -16,7 +16,7 @@
             <ul class="nav-ul white">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#Feature">Feature</a></li>
-                <li><a href="#Contant">Contact</a></li>
+                <li><a href="#Contact">Contact</a></li>
                 <li><a href="#testimonail">Testimonail</a></li>
                 <li><a href="">Sign in</a></li>
             </ul>
@@ -62,7 +62,7 @@
             </div>
         </div>
     </section>
-      <section class="Testimonail">
+      <section class="Testimonail" id="testimonail">
         <h2 class="testimo-h2">Testimonail</h2>
     <div class="testimonial-container">
         
@@ -87,47 +87,66 @@
     </div>
 </section>
 
-    <!-- <section class="Testimonail" id="testimonail">
-        <h1 class="T-h1">Testimonail</h1>
-        <div class="testimonail-container">
 
-            <div class="text-box2">
+    <section class="Banner" id="Contact">
+        <div class="Banner-container">
+            <div class="Banner-item">
                 <i class="fa-brands fa-slack icon-size"></i>
-                <h2 class="Test-h2">Heading</h2>
-                <p class="Teat-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, illum asperiores deleniti quia consequuntur magni!</p>
-                <a href="" class="btn">More</a>
+                <p class="b-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis!</p>
             </div>
-        </div>
-    </section> -->
-
-    <footer class="Footer">
-        <div class="footer-container">
-            <div class="footer-item">
-                <i class="fa-brands fa-slack icon-size"></i>
-                <p class="f-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, veritatis!</p>
+            <div class="Banner-item">
+                <h2 class="Banner-h2 l-v-h2">Contact</h2>
+                <p class="b-p">Email: sajjadafridi1369@gmail.com</p>
+                <p class="b-p">Cell no: 0333-8289462</p>
             </div>
-            <div class="footer-item">
-                <h2 class="footer-h2 l-v-h2">Contact</h2>
-                <p class="f-p">Email: sajjadafridi1369@gmail.com</p>
-                <p class="f-p">0333-8289462</p>
-            </div>
-            <div class="footer-item">
+            <div class="Banner-item">
                 <h2 class="link-h2 l-v-h2">Link</h2>
                 <a href="">Whatsapp</a>
                 <a href="">Linkedin</a>
                 <a href="">Facebook</a>
                 <a href="">Youtube</a>
             </div>
-            <div class="footer-item">
+            <div class="Banner-item">
                 <h2 class="visit-h2 l-v-h2">Visit</h2>
-                <a href="">Home</a>
-                <a href="">Feature</a>
-                <a href="">Contact</a>
-                <a href="">Testimonail</a>
+                <a href="#home">Home</a>
+                <a href="#Feature">Feature</a>
+                <a href="#Contact">Contact</a>
+                <a href="#testimonail">Testimonail</a>
                 <a href="">Sign in</a>
             </div>
         </div>
+    </section>
+    <footer class="footer">
+        <h2 class="footer-h2">Sajjad Khan &copy; all right reserved</h2>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
 
 </body>
 </html>
