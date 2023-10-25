@@ -4,6 +4,7 @@
 *::before{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
@@ -180,12 +181,12 @@ img{
 /* ############# testimonail style ############## */
 .Testimonail{
     background-color:  rgba(132, 132, 88, 0.902);
-    height: 50vh; 
-    padding-top: 6rem;
+    height: 100vh; 
+    padding-top: 25rem;
 }
 .testimo-h2{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 1rem;
 }
 .testimonial-container {
@@ -198,8 +199,7 @@ img{
 }
 
 .testimonial-card {
-    /* width: 20px; */
-    height: 180px;
+    height: 184px;
     text-align: center;
     background-color: #93a25c;
     border: 1px solid #4e4646;
@@ -249,7 +249,7 @@ img{
     text-align: center;
     font-size: 1.3rem;
     font-weight: 500;
-    padding: 3rem;
+    padding: 1.5rem;
     background-color: rgb(190, 214, 51);
     color: #0f0d0d;
 }
