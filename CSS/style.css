@@ -71,39 +71,45 @@ a:hover{
 
 .home-contant{
     background-color: #7a7575;
-    height: 75vh;
-    padding-top: 10rem;
+    height: 82vh;
+    padding-top: 12rem;
 }
 .home-container{
-    background-color: #a7a0a0;
     display: flex;
-    column-gap: 5rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 400px;
 }
-.text-box1{
-    width: 40%;
-    padding: 1rem;
+.test{
+    width: 365px;
+    height: 365px;
+   background-color: #a7a0a0;
+   border-radius: 20px;
+   margin-bottom: 2rem;
 }
 
 .text-h2{
-    font-size: 2rem;
+    padding: 2rem 0.4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
 .text-p{
     font-size: 1.4rem;
     text-align: center;
-    padding: 1rem;
+    padding: 1.2rem;
+    padding-bottom: 2rem;
+}
+.text-box1{
+    text-align: center;
 }
 
-.btn{
-    display:block;
-    text-align: center;
+ .btn{
+    display:inline-block;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: black;
     background-color: #524f4f;
-    width: 12%;
-    margin: auto;
     padding: 1rem 1.5rem;
     outline: none;
     cursor: pointer;
@@ -115,15 +121,13 @@ a:hover{
     color: #fff;
 }
 
-.image-box{
-    width: 55%;
-}
 
 img{
-    width: 250px;
-    height: 260px;
+    height: 365px;
     display: inline-block;
     width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 /* ########## feature style ############ */
@@ -131,7 +135,7 @@ img{
 .feature{
     padding-top: 12rem;
     background-color: rgba(216, 216, 107, 0.902);
-    height: 79vh;
+    height: 80vh;
 }
 .icon-size{
     font-size: 3rem;
@@ -143,20 +147,25 @@ img{
 .f-h2{
     text-align: center;
     padding-bottom: 3rem;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: #524f4f;
 }
 
 .feature-container{
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: 1.4rem;
-    column-gap: 3rem;
+    min-height: 300px;
 }
 .text-box{
     background-color: #063022a9;
+    width: 365px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 2rem;
 }
 .t-p{
     padding-bottom: 1rem;
