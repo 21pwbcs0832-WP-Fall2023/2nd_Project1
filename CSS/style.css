@@ -52,12 +52,14 @@ a:hover{
 
 .nav-bar{
     background-color: #807979;
-    height: 45px;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    height: 45px;
 }
 
 .nav-ul{
@@ -72,7 +74,7 @@ a:hover{
 
 .home-contant{
     background-color: #7a7575;
-    height: 82vh;
+    /* max-height: 82vh; */
     padding-top: 12rem;
 }
 .home-container{
@@ -82,7 +84,7 @@ a:hover{
     min-height: 400px;
 }
 .test{
-    width: 365px;
+    max-width: 365px;
     height: 365px;
    background-color: #a7a0a0;
    border-radius: 20px;
@@ -135,8 +137,8 @@ img{
 
 .feature{
     padding-top: 12rem;
-    background-color: rgba(216, 216, 107, 0.902);
-    height: 86vh;
+    background-color:  rgba(193, 193, 187, 0.902);
+    /* height: 86vh; */
 }
 .icon-size{
     font-size: 3rem;
@@ -180,9 +182,10 @@ img{
 
 /* ############# testimonail style ############## */
 .Testimonail{
-    background-color:  rgba(132, 132, 88, 0.902);
-    height: 100vh; 
-    padding-top: 25rem;
+     background-color: #7a7575;
+    /* height: 100vh;  */
+    padding-top: 10em;
+    padding-bottom: 7rem;
 }
 .testimo-h2{
     text-align: center;
@@ -191,18 +194,18 @@ img{
 }
 .testimonial-container {
     margin: auto;
-    width: 300px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
+    height: 220px; /*Adjust the height as needed  */
+    max-width: 300px; /*Adjust the width as needed */   
     overflow-y: scroll;
     border: 3px solid #ccc;
     padding: 1rem;
 }
 
 .testimonial-card {
-    height: 184px;
+    height: 200px;
     text-align: center;
-    background-color: #93a25c;
-    border: 1px solid #4e4646;
+    background-color: #676863;
+    border: 1px solid #191717;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
@@ -218,12 +221,12 @@ img{
 /* ############## banner style ############ */
 .Banner-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
-    /* margin-top: 5rem; */
     padding-top: 3rem;
-    height: 20vh;
-    background-color: rgb(127, 143, 36);
+    /* height: 20vh; */
+    background-color:  rgba(193, 193, 187, 0.902);
 
 }
 
@@ -250,6 +253,6 @@ img{
     font-size: 1.3rem;
     font-weight: 500;
     padding: 1.5rem;
-    background-color: rgb(190, 214, 51);
+    background-color: #7a7575;
     color: #0f0d0d;
 }
