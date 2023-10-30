@@ -1,5 +1,4 @@
-
-/* sajjad  */
+ /* I HAVE MADE SOME CHANGES AND HAVE MARKED THEM WITH COMMENTS IN FRONT THEREOF. PLEASE READ THEM... FOR ANY CONFUSION OR QUERY, CONTACT.... mubarak*/
 *,
 *::after,
 *::before{
@@ -75,8 +74,10 @@ a:hover{
 
 .home-contant{
     background-color: #7a7575;
-    /* max-height: 82vh; */
-    padding-top: 12rem;
+    /* max-height: 82vh; */ /* you can use this one along with 'hieght' property if you want to make sure the hieght does not surpass a specific limit. alone it renders the hieght as auto  */
+    height: 100vh;  /* use this hieght property instead of max-hieght. max-hieght is just a check that sets the upper limit to hieght of a div but does not defines its value.  */
+     padding-top: 16rem;  /* changed from 12 rem to 16 rem */
+     padding-bottom: 16rem;    /* ADDED; TO MAKE THE LOOK A BIT EVEN */
 }
 .home-container{
     display: flex;
@@ -86,10 +87,11 @@ a:hover{
 }
 .test{
     max-width: 365px;
-    height: 365px;
+    height: 365px;  
    background-color: #a7a0a0;
    border-radius: 20px;
    margin-bottom: 2rem;
+   
 }
 
 .text-h2{
@@ -106,6 +108,8 @@ a:hover{
 }
 .text-box1{
     text-align: center;
+    padding: 10px 20px 0;  /* PADDING ADDED */
+   
 }
 
  .btn{
@@ -136,10 +140,12 @@ img{
 
 /* ########## feature style ############ */
 
-.feature{
+.feature{  
+    /* FOR THE FEATURES SECTION USE GRID ROWS AND COLUMNS TO SET IT ACCORDINGLY AS DIRECTED IN THE VOICE MESSAGE. PLEASE LISTEN THE VOICE MESSAGE AGAIN.  I THINK THERE WAS A CONFUSION....  */
     padding-top: 12rem;
     background-color:  rgba(193, 193, 187, 0.902);
     /* height: 86vh; */
+    height: 100vh; /* added here too. */
 }
 .icon-size{
     font-size: 3rem;
@@ -166,8 +172,9 @@ img{
 }
 .text-box{
     background-color: #063022a9;
-    width: 365px;
-    height: 200px;
+    width: 240px; /* changed  */
+    height: 240px; /* changed  */
+    padding-top: 10px; /* ADDED*/
     border-radius: 20px;
     margin-bottom: 2rem;
 }
@@ -185,8 +192,9 @@ img{
 .Testimonail{
      background-color: #7a7575;
     /* height: 100vh;  */
-    padding-top: 10em;
-    padding-bottom: 7rem;
+    height: 100vh; /* HERE TOO */
+    padding-top: 16em; /* changed from 7 em to 16 em */
+    padding-bottom: 20rem; /* changed from 7 rem to 20 rem, JUST TO CENTER THE DIV VERTICALLY . YOU SHOULD PRACTICE FLEX OR GRID PROPERTIES TO GET RID OF THIS MANUAL SETTING OF PADDINGS IN MOST PLACES */
 }
 .testimo-h2{
     text-align: center;
@@ -196,7 +204,7 @@ img{
 .testimonial-container {
     margin: auto;
     height: 220px; /*Adjust the height as needed  */
-    max-width: 300px; /*Adjust the width as needed */   
+    max-width: 300px; /*Adjust the width as needed */  /* NOTE: REMOVE COMMENTS FROM COPIED CODES IF THEY ARE NOT GUIDING YOU. JUST FOR A GOOD IMPRESSION */ 
     overflow-y: scroll;
     border: 3px solid #ccc;
     padding: 1rem;
@@ -226,7 +234,7 @@ img{
     justify-content: center;
     justify-content: space-evenly;
     padding-top: 3rem;
-    /* height: 20vh; */
+    /* height: 20vh; */   
     background-color:  rgba(193, 193, 187, 0.902);
 
 }
@@ -270,7 +278,7 @@ img{
         text-align: center;
     }
     .Banner-container{
-        /* background-color:  rgba(175, 175, 65, 0.902); */
+        /* background-color:  rgba(175, 175, 65, 0.902); */  /* A TAG WITH NO CONTENTS WITHIN MUST BE DELETED FROM YOUR FILE. */
     
     }
 }
