@@ -75,7 +75,7 @@ a:hover{
 .home-contant{
     background-color: #7a7575;
     /* max-height: 82vh; */ /* you can use this one along with 'hieght' property if you want to make sure the hieght does not surpass a specific limit. alone it renders the hieght as auto  */
-    min-height: 100vh;  /* use this hieght property instead of max-hieght. max-hieght is just a check that sets the upper limit to hieght of a div but does not defines its value.  */
+    min-height: 100vh;  /* use this min-hieght property instead of max-hieght. max-hieght is just a check that sets the upper limit to hieght of a div but does not defines its value.  */
      padding-top: 16rem;  /* changed from 12 rem to 16 rem */
      padding-bottom: 16rem;    /* ADDED; TO MAKE THE LOOK A BIT EVEN */
 }
@@ -145,7 +145,7 @@ img{
     padding-top: 12rem;
     background-color:  rgba(193, 193, 187, 0.902);
     /* height: 86vh; */
-    min-height: 100vh; /* added here too. */
+    min-height: 100vh; /* added here too and change height to min-height. */
 }
 .icon-size{
     font-size: 3rem;
@@ -192,7 +192,7 @@ img{
 .Testimonail{
      background-color: #7a7575;
     /* height: 100vh;  */
-    min-height: 100vh; /* HERE TOO */
+    min-height: 100vh; /* HERE TOO change height to min-height */
     padding-top: 16em; /* changed from 7 em to 16 em */
     padding-bottom: 20rem; /* changed from 7 rem to 20 rem, JUST TO CENTER THE DIV VERTICALLY . YOU SHOULD PRACTICE FLEX OR GRID PROPERTIES TO GET RID OF THIS MANUAL SETTING OF PADDINGS IN MOST PLACES */
 }
@@ -266,6 +266,24 @@ img{
     color: #0f0d0d;
 }
 @media (max-width: 500px){
+    /* ##### index page ##### */
+    .text-h2{
+        padding: 1rem 0.4rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .text-p{
+        font-size: 1.4rem;
+        /* text-align: center; */
+        padding: 0.4rem;
+        padding-bottom: 0.5rem;
+    }
+    .text-box1{
+        text-align: center;
+        padding: 10px 20px 0;  /* PADDING ADDED */
+       
+    }
     /* ##### banner ##### */
     .B-p{
         font-size: 1.2rem;
